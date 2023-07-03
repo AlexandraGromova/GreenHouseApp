@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D96829342A53606C00B903D1 /* GreenHouseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96829332A53606C00B903D1 /* GreenHouseAppApp.swift */; };
+		D96829362A53606C00B903D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96829352A53606C00B903D1 /* ContentView.swift */; };
+		D96829382A53606E00B903D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96829372A53606E00B903D1 /* Assets.xcassets */; };
+		D968293C2A53606E00B903D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D968293B2A53606E00B903D1 /* Preview Assets.xcassets */; };
+		D96829462A53606E00B903D1 /* GreenHouseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96829452A53606E00B903D1 /* GreenHouseAppTests.swift */; };
+		D96829502A53606E00B903D1 /* GreenHouseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968294F2A53606E00B903D1 /* GreenHouseAppUITests.swift */; };
+		D96829522A53606E00B903D1 /* GreenHouseAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96829512A53606E00B903D1 /* GreenHouseAppUITestsLaunchTests.swift */; };
+		D96829612A53614000B903D1 /* DetalsPlantScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96829602A53614000B903D1 /* DetalsPlantScreen.swift */; };
+		D96829632A53617500B903D1 /* PreviewUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96829622A53617500B903D1 /* PreviewUIView.swift */; };
+		D96829652A53619B00B903D1 /* SwiftUIView_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96829642A53619B00B903D1 /* SwiftUIView_Previews.swift */; };
+		D96829672A53695500B903D1 /* FontApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96829662A53695500B903D1 /* FontApp.swift */; };
+		D968296D2A536D0900B903D1 /* BoundsSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968296C2A536D0900B903D1 /* BoundsSize.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96829422A53606E00B903D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96829282A53606C00B903D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D968292F2A53606C00B903D1;
+			remoteInfo = GreenHouseApp;
+		};
+		D968294C2A53606E00B903D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96829282A53606C00B903D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D968292F2A53606C00B903D1;
+			remoteInfo = GreenHouseApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D96829302A53606C00B903D1 /* GreenHouseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenHouseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96829332A53606C00B903D1 /* GreenHouseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenHouseAppApp.swift; sourceTree = "<group>"; };
+		D96829352A53606C00B903D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D96829372A53606E00B903D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D96829392A53606E00B903D1 /* GreenHouseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreenHouseApp.entitlements; sourceTree = "<group>"; };
+		D968293B2A53606E00B903D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D96829412A53606E00B903D1 /* GreenHouseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenHouseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96829452A53606E00B903D1 /* GreenHouseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenHouseAppTests.swift; sourceTree = "<group>"; };
+		D968294B2A53606E00B903D1 /* GreenHouseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenHouseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D968294F2A53606E00B903D1 /* GreenHouseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenHouseAppUITests.swift; sourceTree = "<group>"; };
+		D96829512A53606E00B903D1 /* GreenHouseAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenHouseAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D96829602A53614000B903D1 /* DetalsPlantScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalsPlantScreen.swift; sourceTree = "<group>"; };
+		D96829622A53617500B903D1 /* PreviewUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewUIView.swift; sourceTree = "<group>"; };
+		D96829642A53619B00B903D1 /* SwiftUIView_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView_Previews.swift; sourceTree = "<group>"; };
+		D96829662A53695500B903D1 /* FontApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontApp.swift; sourceTree = "<group>"; };
+		D968296C2A536D0900B903D1 /* BoundsSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundsSize.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D968292D2A53606C00B903D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D968293E2A53606E00B903D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96829482A53606E00B903D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D96829272A53606C00B903D1 = {
+			isa = PBXGroup;
+			children = (
+				D96829322A53606C00B903D1 /* GreenHouseApp */,
+				D96829442A53606E00B903D1 /* GreenHouseAppTests */,
+				D968294E2A53606E00B903D1 /* GreenHouseAppUITests */,
+				D96829312A53606C00B903D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D96829312A53606C00B903D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96829302A53606C00B903D1 /* GreenHouseApp.app */,
+				D96829412A53606E00B903D1 /* GreenHouseAppTests.xctest */,
+				D968294B2A53606E00B903D1 /* GreenHouseAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96829322A53606C00B903D1 /* GreenHouseApp */ = {
+			isa = PBXGroup;
+			children = (
+				D96829332A53606C00B903D1 /* GreenHouseAppApp.swift */,
+				D96829352A53606C00B903D1 /* ContentView.swift */,
+				D96829682A536C5400B903D1 /* Extension */,
+				D968295F2A53611C00B903D1 /* Styles */,
+				D968295E2A53610200B903D1 /* Screens */,
+				D96829372A53606E00B903D1 /* Assets.xcassets */,
+				D96829392A53606E00B903D1 /* GreenHouseApp.entitlements */,
+				D968293A2A53606E00B903D1 /* Preview Content */,
+			);
+			path = GreenHouseApp;
+			sourceTree = "<group>";
+		};
+		D968293A2A53606E00B903D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D968293B2A53606E00B903D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D96829442A53606E00B903D1 /* GreenHouseAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D96829452A53606E00B903D1 /* GreenHouseAppTests.swift */,
+			);
+			path = GreenHouseAppTests;
+			sourceTree = "<group>";
+		};
+		D968294E2A53606E00B903D1 /* GreenHouseAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D968294F2A53606E00B903D1 /* GreenHouseAppUITests.swift */,
+				D96829512A53606E00B903D1 /* GreenHouseAppUITestsLaunchTests.swift */,
+			);
+			path = GreenHouseAppUITests;
+			sourceTree = "<group>";
+		};
+		D968295E2A53610200B903D1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D96829602A53614000B903D1 /* DetalsPlantScreen.swift */,
+				D96829622A53617500B903D1 /* PreviewUIView.swift */,
+				D96829642A53619B00B903D1 /* SwiftUIView_Previews.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D968295F2A53611C00B903D1 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				D96829662A53695500B903D1 /* FontApp.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		D96829682A536C5400B903D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D968296C2A536D0900B903D1 /* BoundsSize.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D968292F2A53606C00B903D1 /* GreenHouseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96829552A53606E00B903D1 /* Build configuration list for PBXNativeTarget "GreenHouseApp" */;
+			buildPhases = (
+				D968292C2A53606C00B903D1 /* Sources */,
+				D968292D2A53606C00B903D1 /* Frameworks */,
+				D968292E2A53606C00B903D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenHouseApp;
+			productName = GreenHouseApp;
+			productReference = D96829302A53606C00B903D1 /* GreenHouseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D96829402A53606E00B903D1 /* GreenHouseAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96829582A53606E00B903D1 /* Build configuration list for PBXNativeTarget "GreenHouseAppTests" */;
+			buildPhases = (
+				D968293D2A53606E00B903D1 /* Sources */,
+				D968293E2A53606E00B903D1 /* Frameworks */,
+				D968293F2A53606E00B903D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96829432A53606E00B903D1 /* PBXTargetDependency */,
+			);
+			name = GreenHouseAppTests;
+			productName = GreenHouseAppTests;
+			productReference = D96829412A53606E00B903D1 /* GreenHouseAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D968294A2A53606E00B903D1 /* GreenHouseAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D968295B2A53606E00B903D1 /* Build configuration list for PBXNativeTarget "GreenHouseAppUITests" */;
+			buildPhases = (
+				D96829472A53606E00B903D1 /* Sources */,
+				D96829482A53606E00B903D1 /* Frameworks */,
+				D96829492A53606E00B903D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D968294D2A53606E00B903D1 /* PBXTargetDependency */,
+			);
+			name = GreenHouseAppUITests;
+			productName = GreenHouseAppUITests;
+			productReference = D968294B2A53606E00B903D1 /* GreenHouseAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D96829282A53606C00B903D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D968292F2A53606C00B903D1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D96829402A53606E00B903D1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D968292F2A53606C00B903D1;
+					};
+					D968294A2A53606E00B903D1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D968292F2A53606C00B903D1;
+					};
+				};
+			};
+			buildConfigurationList = D968292B2A53606C00B903D1 /* Build configuration list for PBXProject "GreenHouseApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D96829272A53606C00B903D1;
+			productRefGroup = D96829312A53606C00B903D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D968292F2A53606C00B903D1 /* GreenHouseApp */,
+				D96829402A53606E00B903D1 /* GreenHouseAppTests */,
+				D968294A2A53606E00B903D1 /* GreenHouseAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D968292E2A53606C00B903D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D968293C2A53606E00B903D1 /* Preview Assets.xcassets in Resources */,
+				D96829382A53606E00B903D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D968293F2A53606E00B903D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96829492A53606E00B903D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D968292C2A53606C00B903D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D968296D2A536D0900B903D1 /* BoundsSize.swift in Sources */,
+				D96829362A53606C00B903D1 /* ContentView.swift in Sources */,
+				D96829652A53619B00B903D1 /* SwiftUIView_Previews.swift in Sources */,
+				D96829632A53617500B903D1 /* PreviewUIView.swift in Sources */,
+				D96829612A53614000B903D1 /* DetalsPlantScreen.swift in Sources */,
+				D96829672A53695500B903D1 /* FontApp.swift in Sources */,
+				D96829342A53606C00B903D1 /* GreenHouseAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D968293D2A53606E00B903D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96829462A53606E00B903D1 /* GreenHouseAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96829472A53606E00B903D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96829502A53606E00B903D1 /* GreenHouseAppUITests.swift in Sources */,
+				D96829522A53606E00B903D1 /* GreenHouseAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D96829432A53606E00B903D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D968292F2A53606C00B903D1 /* GreenHouseApp */;
+			targetProxy = D96829422A53606E00B903D1 /* PBXContainerItemProxy */;
+		};
+		D968294D2A53606E00B903D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D968292F2A53606C00B903D1 /* GreenHouseApp */;
+			targetProxy = D968294C2A53606E00B903D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D96829532A53606E00B903D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D96829542A53606E00B903D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D96829562A53606E00B903D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GreenHouseApp/GreenHouseApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenHouseApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4373H7M8Y8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SashaGromova.GreenHouseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D96829572A53606E00B903D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GreenHouseApp/GreenHouseApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenHouseApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4373H7M8Y8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SashaGromova.GreenHouseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D96829592A53606E00B903D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4373H7M8Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SashaGromova.GreenHouseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenHouseApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenHouseApp";
+			};
+			name = Debug;
+		};
+		D968295A2A53606E00B903D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4373H7M8Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SashaGromova.GreenHouseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenHouseApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenHouseApp";
+			};
+			name = Release;
+		};
+		D968295C2A53606E00B903D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4373H7M8Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SashaGromova.GreenHouseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenHouseApp;
+			};
+			name = Debug;
+		};
+		D968295D2A53606E00B903D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4373H7M8Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SashaGromova.GreenHouseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenHouseApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D968292B2A53606C00B903D1 /* Build configuration list for PBXProject "GreenHouseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96829532A53606E00B903D1 /* Debug */,
+				D96829542A53606E00B903D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96829552A53606E00B903D1 /* Build configuration list for PBXNativeTarget "GreenHouseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96829562A53606E00B903D1 /* Debug */,
+				D96829572A53606E00B903D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96829582A53606E00B903D1 /* Build configuration list for PBXNativeTarget "GreenHouseAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96829592A53606E00B903D1 /* Debug */,
+				D968295A2A53606E00B903D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D968295B2A53606E00B903D1 /* Build configuration list for PBXNativeTarget "GreenHouseAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D968295C2A53606E00B903D1 /* Debug */,
+				D968295D2A53606E00B903D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D96829282A53606C00B903D1 /* Project object */;
+}
